@@ -1,0 +1,14 @@
+ABOUT LICENSING:
+
+
+I am in no ways a legal expert, so I might be going about licensing the wrong way.
+
+In any case, I have used some parts of Matlab code that were done by others that deserve recognition. 
+First I should say the GNG algorithm by Ilias Konsoulas influenced most of the decisions on how to organize the GWR algorithm. I've partially rewritten his algorithm (core parts remain mostly unchanged), as a means of comparing with my own implementation. His copyright notice is included as the file GNG_LICENSE.TXT, and I hope this suffices legal requirements.
+My own code is under MIT license which was the most permissive I could find. 
+A rotation algorithm - although not exactly functional - is available for tests as one of the multiple preconditioning functions, and for that I could not find a license, so its copy was removed from the code, but will work if you just copy it with the name vecRotMat.m to the directory where the classifier is. I have also included the link for the GNG in case you might want to access the original work. 
+
+
+vecRotMat.m link: http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/37597/versions/2/previews/vecRotMat.m/index.html
+
+GNG link: http://www.mathworks.com/matlabcentral/fileexchange/43665-unsupervised-learning-with-growing-neural-gas--gng--neural-network
