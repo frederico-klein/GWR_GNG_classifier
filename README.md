@@ -4,6 +4,8 @@ An extension for classification including 2 types of Neural Gas, the Growing Whe
 
 Included there is a simple example of a classifier with 4 shapes (which is trivially classifiable with 4 nodes), to show how the gas constructs the topological description of a dataset.  
 
+References:
+
 Konsoulas, I., 2013. Unsupervised Learning with Growing Neural Gas (GNG) Neural Network - File Exchange - MATLAB Central [WWW Document]. URL http://www.mathworks.com/matlabcentral/fileexchange/43665-unsupervised-learning-with-growing-neural-gas--gng--neural-network (accessed 6.22.16).
 
 Marsland, S., Shapiro, J., Nehmzow, U., 2002. A self-organising network that grows when required. Neural Networks 15, 1041–1058.
